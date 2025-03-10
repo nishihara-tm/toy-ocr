@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["src/*"]
+        },
+        "baseUrl": "./",
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "types": ["vitest/globals"]
+    },
+    "include": ["src/**/*", "tests/**/*"],
+    "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "openai": "^4.86.2",
+    "playwright": "^1.51.0"
+  },
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/tools/scraping.ts",
+    "decode": "tsx src/tools/client.ts",
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest tests/*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "jsdom": "^26.0.0",
+    "tsx": "^4.19.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.0.8"
+  }
+}
